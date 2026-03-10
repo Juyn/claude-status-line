@@ -1,4 +1,4 @@
-# claude-statusline
+# claude-status-line
 
 Configure your Claude Code statusline to show limits, directory and git info
 
