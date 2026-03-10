@@ -9,7 +9,7 @@ Configure your Claude Code statusline to show limits, directory and git info
 Run the command below to set it up
 
 ```bash
-npx @unlocker/claude-statusline
+npx @unlocker-io/claude-statusline
 ```
 
 It backups your old status line if any and copies the status line script to `~/.claude/statusline.sh` and configures your Claude Code settings.
@@ -23,13 +23,13 @@ It backups your old status line if any and copies the status line script to `~/.
 On macOS:
 
 ```bash
-sudo dnf jq
+sudo dnf install jq
 ```
 
 ## Uninstall
 
 ```bash
-npx @unlocker/claude-statusline --uninstall
+npx @unlocker-io/claude-statusline --uninstall
 ```
 
 If you had a previous statusline, it restores it from the backup. Otherwise it removes the script and cleans up your settings.
